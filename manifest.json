@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Code Paste Blocker",
+    "name": "Code Paste Blocker by Divyansh Singh (Arshthakur)",
     "version": "1.0",
-    "description": "Blocks code pasting on LeetCode and GeeksforGeeks to encourage learning through writing code yourself!",
+    "description": "Blocks code pasting on LeetCode and GeeksforGeeks to encourage learning through writing code yourself! Created by Divyansh Singh (Arshthakur)",
     "permissions": ["storage", "scripting"],
     "host_permissions": [
       "*://leetcode.com/*",
@@ -17,7 +17,7 @@
         "48": "icons/icon.png",
         "128": "icons/icon.png"
       },
-      "default_title": "Code Paste Blocker"
+      "default_title": "Code Paste Blocker by Divyansh Singh (Arshthakur)"
     },
     "content_scripts": [
       {
@@ -36,7 +36,7 @@
       "48": "icons/icon.png",
       "128": "icons/icon.png"
     },
-    "author": "Code Paste Blocker Team",
-    "homepage_url": "https://github.com/yourusername/code-paste-blocker",
+    "author": "Divyansh Singh (Arshthakur)",
+    "homepage_url": "https://github.com/divyanshsingh07/CopyPasteBlocker",
     "offline_enabled": true
 }

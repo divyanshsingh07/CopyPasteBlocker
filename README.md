@@ -24,7 +24,18 @@ GitHub: [divyanshsingh07](https://github.com/divyanshsingh07)
 3. Click "Add to Chrome"
 
 ### Manual Installation
-1. Download the extension files
+
+#### Option 1: Clone from GitHub
+```bash
+# Clone the repository
+git clone https://github.com/divyanshsingh07/CopyPasteBlocker.git
+
+# Navigate to the extension directory
+cd CopyPasteBlocker
+```
+
+#### Option 2: Download and Install
+1. Download the extension files from [GitHub](https://github.com/divyanshsingh07/CopyPasteBlocker)
 2. Open Chrome/Edge and go to `chrome://extensions/` (or `edge://extensions/`)
 3. Enable "Developer mode" (toggle in top right)
 4. Click "Load unpacked"
@@ -54,7 +65,15 @@ This extension:
 
 ## Support
 
-If you find any issues or have suggestions, please open an issue on [GitHub](https://github.com/divyanshsingh07/code-paste-blocker).
+If you find any issues or have suggestions, please open an issue on [GitHub](https://github.com/divyanshsingh07/CopyPasteBlocker).
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## License
 
