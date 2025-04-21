@@ -1,4 +1,4 @@
-// Debug log
+
 
 function blockAllCopyPaste() {
     console.log('Blocking copy and paste...');
