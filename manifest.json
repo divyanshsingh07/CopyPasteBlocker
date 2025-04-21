@@ -1,0 +1,42 @@
+{
+    "manifest_version": 3,
+    "name": "Code Paste Blocker",
+    "version": "1.0",
+    "description": "Blocks code pasting on LeetCode and GeeksforGeeks to encourage learning through writing code yourself!",
+    "permissions": ["storage", "scripting"],
+    "host_permissions": [
+      "*://leetcode.com/*",
+      "*://*.leetcode.com/*",
+      "*://geeksforgeeks.org/*",
+      "*://*.geeksforgeeks.org/*"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/icon.png",
+        "48": "icons/icon.png",
+        "128": "icons/icon.png"
+      },
+      "default_title": "Code Paste Blocker"
+    },
+    "content_scripts": [
+      {
+        "matches": [
+          "*://leetcode.com/*",
+          "*://*.leetcode.com/*",
+          "*://geeksforgeeks.org/*",
+          "*://*.geeksforgeeks.org/*"
+        ],
+        "js": ["content.js"],
+        "run_at": "document_start"
+      }
+    ],
+    "icons": {
+      "16": "icons/icon.png",
+      "48": "icons/icon.png",
+      "128": "icons/icon.png"
+    },
+    "author": "Code Paste Blocker Team",
+    "homepage_url": "https://github.com/yourusername/code-paste-blocker",
+    "offline_enabled": true
+}
