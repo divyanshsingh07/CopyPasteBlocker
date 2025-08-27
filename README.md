@@ -2,7 +2,7 @@
 
 A Chrome/Edge extension that blocks code pasting on LeetCode and GeeksforGeeks to encourage learning through writing code yourself!
 
-## Author
+## Author , 
 
 Created by [Divyansh Singh](https://www.linkedin.com/in/divyansh-singh-a33976255/)
 
